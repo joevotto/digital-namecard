@@ -1,14 +1,14 @@
 BEGIN:VCARD
 VERSION:3.0
-PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
-N:Lim;Preston;;;
-FN: Preston  Lim 
-ORG:GovTech;
-TITLE:Associate Software Engineer\nProducts Team, Data Science Division
-EMAIL;type=INTERNET;type=WORK;type=pref:preston@data.gov.sg
-TEL;type=WORK;type=VOICE:+65 9123 4567
-item1.ADR;type=WORK;type=pref:;;1 Fusionopolis View\nSandcrawler\, 09-01;;;138577;Singapore
+PRODID:-//Google.//Android OS 8.0//EN
+N:Votto;Joseph;;;
+FN: Joseph Votto
+ORG:Primo PC Protector;
+TITLE:Founder/Tech Support Agent\nPrimo PC Protector
+EMAIL;type=INTERNET;type=WORK;type=pref:primo@programmer.net
+TEL;type=WORK;type=VOICE:385-999-9573
+item1.ADR;type=WORK;type=pref:;;1 Holladay\nUtah\, 1170;;;84117;United States
 item1.X-ABADR:sg
-item2.URL;type=pref:tech.gov.sg
+item2.URL;type=pref:primopcprotector.ga
 item2.X-ABLabel:_$!<HomePage>!$_
 END:VCARD
