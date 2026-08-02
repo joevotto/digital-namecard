@@ -1,44 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Joseph Votto</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Primo | Links</title>
+  <style>
+    :root {
+      --bg-color: #0f172a;
+      --card-bg: #1e293b;
+      --card-hover: #334155;
+      --text-color: #f8fafc;
+      --subtext-color: #94a3b8;
+      --accent-color: #38bdf8;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 480px;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 16px;
+      border: 2px solid var(--accent-color);
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    p.bio {
+      font-size: 0.95rem;
+      color: var(--subtext-color);
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .link-card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px 20px;
+      background-color: var(--card-bg);
+      color: var(--text-color);
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: all 0.2s ease-in-out;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .link-card:hover {
+      background-color: var(--card-hover);
+      transform: translateY(-2px);
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 0.8rem;
+      color: var(--subtext-color);
+    }
+  </style>
 </head>
 <body>
-  <!-- A div with container id to hold the card -->
-  <div id="container">
 
-    <!-- A div with card class for the card  -->
-    <div class="card">
-      <img src="c.png" alt="profile pic">
+  <div class="container">
+    <!-- Profile Avatar -->
+    <img class="avatar" src="c.png" alt="Profile Picture" />
 
-      <!-- A div with card__details class to hold the details in the card  -->
-      <div class="card__details">
-    
-        <!-- Span with tag class for the tag -->
-        <span class="tag">Tech Support</span>
-        <span class="tag">Customer Service</span>
+    <!-- Name & Tagline -->
+    <h1>Primo</h1>
+    <p class="bio">Creator, developer, and designer. Welcome to my personal hub.</p>
 
-        <!-- A div with name class for the name of the card -->
-        <div class="name">Joseph Votto</div>
+    <!-- Link Buttons -->
+    <div class="links">
+      <a href="https://primopcprotector.netlify.app/" class="link-card" target="_blank" rel="noopener">🌐 Tech Support Service </a>
+      <a href="https://github.com/joevotto" class="link-card" target="_blank" rel="noopener">💻 GitHub Portfolio</a>
+      <a href="mailto:email@primo@programmer.net" class="link-card">✉️ Email Me</a>
+      <a href="p.vcf" class="link-card" download>Download VCF</a>
 
-        <p>
-        <a href="mailto:josephprimo@live.com">josephprimo@live.com</a>
-        <br>
-        <a href="tel:860-919-4330">860-919-4330</a>
-        <br>
-        <a href = "https://primopcprotector.netlify.app">Book My Services Here</a>
-        </p>
-					</div>
-            <a href="JosephVotto.vcf">
-    <button>Download VCF</button>
-  </a>
-        
-      </div>
+    <div class="footer">
+      <p>© 2026 Primo</p>
     </div>
   </div>
-</body>
 
+</body>
 </html>
